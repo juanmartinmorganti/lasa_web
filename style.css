@@ -1,0 +1,56 @@
+
+header{
+    height: 150px;
+    background-color: aqua;
+
+}
+
+#logo{
+    
+    float: left;
+    background-size:cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px;
+   
+}
+#logo img{
+    width: 100px;
+    
+}
+
+nav {
+    float: right;
+    
+  }
+
+
+
+/* Estilos para el menú principal */
+.main-links {
+    display: flex;
+    list-style: none;
+}
+
+.main-links li {
+    margin-right: 20px;
+}
+
+/* Estilos para los elementos desplegables */
+.dropdown-li {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+.dropdown-li:hover .dropdown-menu {
+    display: block;
+}
