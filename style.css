@@ -22,9 +22,20 @@ header{
 
 nav {
     float: right;
-    
+      
   }
 
+
+  .main-links li a {
+    display: flex;
+    color: aqua;
+    padding: 20px;
+    background-color: blue;
+    margin: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 15px;
+}
 
 
 /* Estilos para el menú principal */
