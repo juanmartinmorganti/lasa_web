@@ -1,4 +1,13 @@
 
+header, section, footer {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
 header{
     height: 150px;
     background-color: aqua;
@@ -79,4 +88,26 @@ nav {
 .dropdown-li:hover .dropdown-menu {
     display: block;
     
+}
+
+.estandar {
+  
+    height: 600px;
+    background-color: rgb(137, 133, 172);
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.caja1 {
+    height: 550px;
+    width: 200px;
+    background-color: bisque;
+    float: left;
+    margin: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+    background-size: cover;
+
+    border-radius: 30px;
 }
