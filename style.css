@@ -1,5 +1,8 @@
 
-header, section, footer {
+
+
+
+body, header, section, footer {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -82,6 +85,7 @@ nav {
     padding: 10px;
     list-style: none;
     background-color: aqua;
+    z-index: 1;
    
 }
 
@@ -110,4 +114,30 @@ nav {
     background-size: cover;
 
     border-radius: 30px;
+}
+
+section{
+    display: flex;
+    width: 1200px;
+    height: 900px;
+    
+}
+
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+    
+}
+
+section img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+    
+
+
 }
