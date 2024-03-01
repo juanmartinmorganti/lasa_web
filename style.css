@@ -13,7 +13,7 @@ body, header, section, footer {
 
 header{
     height: 150px;
-    background-color: aqua;
+    background-color: rgb(10, 5, 88);
 
 }
 
@@ -29,6 +29,12 @@ header{
 }
 #logo img{
     width: 200px;
+    background-color: rgb(34, 209, 209);
+    border-radius: 10px;
+    justify-content: center;
+    padding: 5px  5px 0 15px ;
+    
+
     
 }
 
@@ -43,9 +49,9 @@ nav {
 
   .main-links li a {
     display: flex;
-    color: rgb(16, 8, 152);
+    color:rgb(34, 209, 209);
     padding: 20px;
-    background-color: aqua;
+    background-color: rgb(10, 5, 88);
     margin: 5px;
     text-decoration: none;
     font-weight: bold;
